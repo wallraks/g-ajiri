@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="branches_array">
+        <item>Head Office Branch</item>
+        <item>Mombasa Branch</item>
+        <item>Westlands Branch</item>
+        <item>Kisumu Branch</item>
+        <item>Thika Branch</item>
+        <item>Tulip House Branch</item>
+        <item>Nyeri Branch</item>
+        <item>Eldoret Branch</item>
+        <item>Kisii Branch</item>
+        <item>Meru Branch</item>
+        <item>Westlands Branch</item>
+        <item>Bungoma Branch</item>
+        <item>Nakuru Branch</item>
+    </string-array>
+
+    <array name="labels">
+        <item>travel</item>
+        <item>insurance</item>
+        <item>holiday</item>
+    </array>
+    <array name="hospitals">
+        <item>Please select Hospital</item>
+        <item>Aga Khan</item>
+        <item>Mp Shah</item>
+        <item>Getrudes</item>
+    </array>
+
+    <array name="banks_0">
+        <item>0</item>
+        <item>Select Bank</item>
+    </array>
+    <array name="banks_1">
+        <item>10</item>
+        <item>BARCLAYS BANK</item>
+    </array>
+    <array name="banks_2">
+        <item>11</item>
+        <item>CITI BANK</item>
+    </array>
+    <array name="banks_3">
+        <item>12</item>
+        <item>CO-OPERATIVE BANK OF KENYA</item>
+    </array>
+    <array name="banks_4">
+        <item>13</item>
+        <item>DIAMOND TRUST BANK</item>
+    </array>
+    <array name="banks_5">
+        <item>14</item>
+        <item>STANDARD CHARTERED</item>
+    </array>
+    <array name="banks_6">
+        <item>15</item>
+        <item>NIC</item>
+    </array>
+    <array name="banks_7">
+        <item>16</item>
+        <item>STANBIC BANK</item>
+    </array>
+    <array name="banks_8">
+        <item>17</item>
+        <item>BANK OF AFRICA KENYA LTD</item>
+    </array>
+    <array name="banks_9">
+        <item>18</item>
+        <item>COMMERCIAL BANK OF AFRICA</item>
+    </array>
+    <array name="banks_10">
+        <item>19</item>
+        <item>CONSOLIDATED BANK LTD</item>
+    </array>
+    <array name="banks_11">
+        <item>20</item>
+        <item>CREDIT BANK LIMITED</item>
+    </array>
+    <array name="banks_12">
+        <item>21</item>
+        <item>EQUITY BANK LTD</item>
+    </array>
+    <array name="banks_13">
+        <item>22</item>
+        <item>FAMILY BANK</item>
+    </array>
+    <array name="banks_14">
+        <item>23</item>
+        <item>I &amp; M BANK</item>
+    </array>
+    <array name="banks_15">
+        <item>24</item>
+        <item>JAMII BORA</item>
+    </array>
+    <array name="banks_16">
+        <item>25</item>
+        <item>KENYA COMMERCIAL BANK</item>
+    </array>
+    <array name="banks_17">
+        <item>26</item>
+        <item>NATIONAL BANK OF KENYA</item>
+    </array>
+    <array name="banks_18">
+        <item>27</item>
+        <item>TRANSNATIONAL BANK</item>
+    </array>
+</resources>

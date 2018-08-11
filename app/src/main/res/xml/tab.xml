@@ -1,0 +1,22 @@
+<tabs>
+    <tab
+        activeColor="@color/body_text_1"
+        icon="@drawable/ic_home"
+        id="@+id/home"
+        inActiveColor="@color/body_text_3" />
+    <tab
+        activeColor="@color/body_text_1"
+        icon="@drawable/ic_tags"
+        id="@+id/payments"
+        inActiveColor="@color/body_text_3" />
+    <tab
+        activeColor="@color/body_text_1"
+        icon="@drawable/ic_profile"
+        id="@+id/support"
+        inActiveColor="@color/body_text_3" />
+    <tab
+        activeColor="@color/body_text_1"
+        icon="@drawable/ic_action_utilities"
+        id="@+id/about"
+        inActiveColor="@color/body_text_3" />
+</tabs>

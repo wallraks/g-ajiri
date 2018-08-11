@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/profImageView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:src="@drawable/fab_circle" />
+
+                    <RelativeLayout
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginLeft="16dp"
+                        android:background="@drawable/fab_circle">
+
+                        <ImageView
+                            android:id="@+id/profImageViewEdit"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_action_photo"
+                            android:tint="@color/gray" />
+                    </RelativeLayout>
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/tvUserEmail"
+                    fontPath="fonts/futura_medium_bt.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:text="username@mail.com" />
+
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    fontPath="fonts/futura_heavy.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="username"
+                    android:textColor="@color/light_grey"  />
+
+
+                <TextView
+                    android:id="@+id/tvTwitterHandle"
+                    fontPath="fonts/futura_medium_bt.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="twitter handle"
+                    android:textColor="@color/light_grey"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <View
+                style="@style/Divider"
+                android:layout_above="@+id/bottom_navigation" />
+
+            <RelativeLayout
+                android:id="@+id/realtvreplacecard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/img_card"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/activity_horizontal_margin"
+                        android:tint="@color/purple_dark"
+                        app:srcCompat="@drawable/ic_action_account" />
+
+                    <TextView
+                        android:id="@+id/tvreplacecard"
+                        fontPath="fonts/futura_medium_bt.ttf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Account Details" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_action_next" />
+            </RelativeLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_above="@+id/bottom_navigation" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout_app_invite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/activity_horizontal_margin">
+
+                <ImageView
+                    android:id="@+id/image_view_app_invite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:tint="@color/orange_dark"
+                    app:srcCompat="@drawable/ic_action_agent" />
+
+                <TextView
+                    android:id="@+id/text_view_app_invite"
+                    fontPath="fonts/futura_medium_bt.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/invite" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_above="@+id/bottom_navigation" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/white"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <View
+                style="@style/Divider"
+                android:layout_above="@+id/bottom_navigation" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_horizontal_margin">
+
+
+                <TextView
+                    android:id="@+id/tvterms"
+                    fontPath="fonts/futura_medium_bt.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/terms" />
+
+                <View
+                    style="@style/Divider"
+                    android:layout_above="@+id/bottom_navigation" />
+
+                <TextView
+                    android:id="@+id/tvlogout"
+                    fontPath="fonts/futura_medium_bt.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/logout" />
+            </LinearLayout>
+
+            <View
+                style="@style/Divider"
+                android:layout_above="@+id/bottom_navigation" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo_img" />
+
+        <TextView
+            fontPath="fonts/futura_medium_bt.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:text="@string/made_with_love"
+            android:textColor="@color/subtitle"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</ScrollView>
